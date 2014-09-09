@@ -133,7 +133,7 @@ $(document).ready(function(){
 	    else{
         if(guessCounter==1){//1st Guess
         	if(difference<25){
-    			result = "Hot!";
+    			result = "Hot";
 	    	}
 	    	else if(difference<50){
     			result = "Warm";
@@ -143,7 +143,7 @@ $(document).ready(function(){
 	    	}
 	    	else
 	    	{
-	    		result = "Cold!";
+	    		result = "Cold";
         	}
         }
         else//Subsequent Guess
