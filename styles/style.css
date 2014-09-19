@@ -1,3 +1,4 @@
+/*Modified by Bide, 0919/14 for TF Course*/
 /*---------------------------------------------------------------------------------
    Common Styles
 ---------------------------------------------------------------------------------*/
@@ -60,7 +61,7 @@ nav {
 }
 
 nav ul li {
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight: 700;
 	font-size: 1.2em;
 }

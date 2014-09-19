@@ -8,7 +8,7 @@
 $(document).ready(function(){
 	
 	/*--- Display information modal box ---*/
-  	$(".what").click(function(){
+  	$(".instructions").click(function(){
     	$(".overlay").fadeIn(1000);
 
   	});
@@ -62,7 +62,7 @@ $(document).ready(function(){
 		return 0;
     };
 
-    /*--- Named fn: Starts new game by +NEW GAME ----*/
+    /*--- Named fn: Starts new game via ReStartGame ----*/
     var startNewGame = function () {
 			for(var i=guessCounter;i>=0;i--){//Clear stacked Html elements
 				guessNum.pop();
